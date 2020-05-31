@@ -14,7 +14,7 @@ class Contact extends Component {
     }
     handleSubmit = async event =>{
       event.preventDefault();
-      await axios.post('/api/feed/book',{
+      await axios.post('/api/booking/newbooking',{
         name: this.state.name,
         phone: this.state.phone,
         email: this.state.email,
