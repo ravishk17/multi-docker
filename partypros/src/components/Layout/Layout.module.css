@@ -1,0 +1,9 @@
+.Content {
+  margin-top: 0px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+  background-image: linear-gradient(hsl(186, 86%, 58%), rgb(255, 0, 21));
+  border-radius: 1px;
+}

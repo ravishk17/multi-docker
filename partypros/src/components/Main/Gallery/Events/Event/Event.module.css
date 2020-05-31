@@ -1,0 +1,10 @@
+.Event {
+  height: 250px;
+  padding: 10px;
+  border: 2px solid fuchsia;
+  background-color: ghostwhite;
+}
+
+.Event img {
+  height: 100%;
+}
