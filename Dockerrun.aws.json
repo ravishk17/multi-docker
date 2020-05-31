@@ -5,13 +5,15 @@
             "name":"client",
             "image":"ravishk17/multi-client",
             "hostname":"client",
-            "essential":false
+            "essential":false,
+            "memory": 256
         },
         {
             "name":"server",
             "image":"ravishk17/multi-server",
             "hostname": "api",
-            "essential":false
+            "essential":false,
+            "memory": 256
         },
         {
             "name":"nginx",
@@ -24,7 +26,8 @@
                     "containerPort":80
                 }
             ],
-            "links":["client", "server"]
+            "links":["client", "server"],
+            "memory": 256
         }
     ]
 }
