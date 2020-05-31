@@ -16,13 +16,6 @@
       "memory": 128
     },
     {
-      "name": "worker",
-      "image": "ravishk17/multi-worker",
-      "hostname": "worker",
-      "essential": false,
-      "memory": 128
-    },
-    {
       "name": "nginx",
       "image": "ravishk17/multi-nginx",
       "hostname": "nginx",
