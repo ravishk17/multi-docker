@@ -6,6 +6,8 @@
   width: 30%;
   padding: 20px;
   align-items: center;
+  margin: auto;
+  border: 2px solid black;
 }
 
 .form input {
