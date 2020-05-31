@@ -1,3 +1,20 @@
 .Contact {
   border: 2px solid green;
 }
+
+.form {
+  width: 30%;
+  padding: 20px;
+  align-items: center;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form label {
+  text-align: left;
+}

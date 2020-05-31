@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from 'axios';
+import classes from "./Contact.module.css";
 
 class Contact extends Component {
   
@@ -41,6 +42,7 @@ class Contact extends Component {
         <div>
           Or write us at: <h1>ravish.k17@iiits.in</h1>
         </div>
+        <div className={classes.form}>
         <form onSubmit={this.handleSubmit}>
           <label>name</label>
           <input
@@ -57,11 +59,6 @@ class Contact extends Component {
             value={this.state.email}
             onChange={event => this.setState({ email: event.target.value })}
           />
-          <label>date</label>
-          <input
-            value={this.state.date}
-            onChange={event => this.setState({ date: event.target.value })}
-          />
           <label>location</label>
           <input
             value={this.state.location}
@@ -74,6 +71,7 @@ class Contact extends Component {
           />
           <button>Submit</button>
         </form>
+        </div>
       </div>
     );
   }
